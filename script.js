@@ -20,27 +20,14 @@ const projects = [
     github: "",
     live: ""
   },
-  {
-    title: "QR Scanner",
-    description: "Scan QR from camera & gallery.",
-    tech: "Flutter",
-    github: "",
-    live: ""
-  },
-  {
-    title: "Chat App",
-    description: "Realtime messaging system.",
-    tech: "Flutter, Firebase",
-    github: "",
-    live: ""
-  },
-  {
-    title: "Inventory System",
-    description: "Manage products and stock.",
-    tech: "Flutter, Firebase",
-    github: "",
-    live: ""
-  }
+//   {
+//     title: "QR Scanner",
+//     description: "Scan QR from camera & gallery.",
+//     tech: "Flutter",
+//     github: "",
+//     live: ""
+//   },
+  
 ];
 
 const container = document.getElementById("projects-container");
