@@ -4,84 +4,104 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Mahfuz Alam — Flutter Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <meta name="description" content="Portfolio — Flutter Developer">
 </head>
+
 <body>
-  <header class="hero" id="home">
-    <div class="hero-inner">
-      <img class="profile" src="images/Mahfuz.jpg" alt="Profile placeholder">
-      <div class="hero-text">
-        <h1>Mahfuz Alam</h1>
-        <p class="title">Flutter Developer</p>
-        <p class="cta-row">
-          <a class="btn" href="MAHFUZ ALAM.pdf" download>Download CV</a>
-          <a class="btn ghost" href="#contact">Contact</a>
-        </p>
-      </div>
+
+<header class="hero" id="home">
+  <div class="hero-inner">
+    <div>
+      <h1>Hello, I'm Mahfuz Alam</h1>
+      <p class="title">Flutter Developer • Problem Solver • App Builder</p>
+
+      <p class="hero-desc">I build high-performance, scalable, and visually appealing mobile applications using Flutter.</p>
+
+      <p class="cta-row">
+        <a class="btn" href="MAHFUZ ALAM.pdf" download>Download CV</a>
+        <a class="btn ghost" href="#contact">Contact Me</a>
+      </p>
+
+      <nav class="topnav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-    <nav class="topnav">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <main class="container">
-    <section id="about" class="card">
-      <h2>About</h2>
-      <p>I’m a Flutter Developer passionate about crafting smooth and beautiful mobile applications. I love learning new technologies and building real-world solutions that make life easier and more efficient.</p>
-    </section>
+    <img class="profile" src="images/Mahfuz.jpg" alt="Profile">
+  </div>
+</header>
 
-    <section id="projects" class="card">
-      <h2>Projects</h2>
-      <div class="grid">
-        <article class="project-card">
-          <h3>Weather App (Flutter)</h3>
-          <p>Responsive weather app fetching live forecasts, displays hourly/daily data, and supports location and search. Includes clean animations and offline caching.</p>
-          <p class="small">Tech: Flutter, Provider, OpenWeatherMap API</p>
-        </article>
+<main class="container">
 
-        <article class="project-card">
-          <h3>To‑Do App (Flutter)</h3>
-          <p>Productivity app with categories, local persistence, notifications, and drag-and-drop reorder. Focus on UX and smooth performance.</p>
-          <p class="small">Tech: Flutter, Hive (local storage), Firebase for optional sync</p>
-        </article>
-        <article class="project-card">
-          <h3>Smart Expense Tracker App (Flutter) </h3>
-          <p>Tracks income and expenses with category management, monthly reports, and spending analytics.</p>
-          <p class="small">Tech: Flutter, Provider,Hive, shared_preferences</p>
-        </article>
-      </div>
-    </section>
+  <!-- ABOUT -->
+  <section id="about" class="card">
+    <h2>About</h2>
+    <p>
+      I’m a Flutter Developer passionate about building smooth,
+      responsive, and user-friendly mobile applications.
+    </p>
+    <p>
+      I specialize in state management, API integration, and creating
+      scalable app architectures. I enjoy solving real-world problems
+      through technology and continuously learning new tools.
+    </p>
+  </section>
 
-    <section id="skills" class="card">
-      <h2>Skills</h2>
-      <div class="skills-grid">
-        <div>Flutter</div>
-        <div>Dart</div>
-        <div>Firebase</div>
-        <div>REST APIs</div>
-        <div>Git</div>
-        <div>Unit & Widget Testing</div>
-      </div>
-    </section>
+  <!-- PROJECTS -->
+  <section id="projects" class="card">
+    <h2>Projects</h2>
 
-    <section id="contact" class="card">
-      <h2>Contact</h2>
-      <p>Get in touch — I’m open to collaboration and new opportunities.</p>
-      <ul class="contact-list">
-        <li>GitHub: <a href="github.com/Mahfuz64" target="_blank" rel="noopener">github.com/Mahfuz64</a></li>
-        <li>LinkedIn: <a href="linkedin.com/in/mahfuzalam2105" target="_blank" rel="noopener">linkedin.com/in/mahfuzalam2105</a></li>
-        <li>Email: <a href="mahfuzalam2105@gmail.com">mahfuzalam2105@gmail.com</a></li>
-      </ul>
-    </section>
-  </main>
+    <div id="projects-wrapper">
+      <div id="projects-container" class="grid"></div>
+    </div>
 
-  <footer class="footer">
-    <p>© 2026 Mahfuz Alam • Built with ❤️ using Flutter skills</p>
-  </footer>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="card">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div>Flutter</div>
+      <div>Dart</div>
+      <div>Firebase</div>
+      <div>REST APIs</div>
+      <div>Git</div>
+      <div>Hive</div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="card">
+    <h2>Contact</h2>
+    <p>Get in touch — open to opportunities.</p>
+
+    <ul class="contact-list">
+      <li>
+        GitHub:
+        <a href="https://github.com/Mahfuz64" target="_blank">github.com/Mahfuz64</a>
+      </li>
+      <li>
+        LinkedIn:
+        <a href="https://linkedin.com/in/mahfuzalam2105" target="_blank">linkedin.com/in/mahfuzalam2105</a>
+      </li>
+      <li>
+        Email:
+        <a href="mailto:mahfuzalam2105@gmail.com">mahfuzalam2105@gmail.com</a>
+      </li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 Mahfuz Alam</p>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
