@@ -21,8 +21,8 @@ const projects = [
     live: ""
   },
   {
-    title: "QR Scanner",
-    description: "Scan QR from camera & gallery.",
+    title: "QR and Barcode Scanner",
+    description: "Scan QR and Barcode from camera & gallery.",
     tech: "Flutter",
     github: "",
     live: ""
