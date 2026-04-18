@@ -20,13 +20,13 @@ const projects = [
     github: "",
     live: ""
   },
-//   {
-//     title: "QR Scanner",
-//     description: "Scan QR from camera & gallery.",
-//     tech: "Flutter",
-//     github: "",
-//     live: ""
-//   },
+  {
+    title: "QR Scanner",
+    description: "Scan QR from camera & gallery.",
+    tech: "Flutter",
+    github: "",
+    live: ""
+  },
   
 ];
 
